@@ -6,18 +6,17 @@ from instabot_py import InstaBot
 bot = InstaBot(
     login="udemy_dm",  # Enter username (lowercase). Do not enter email!
     password="Oneplus135",
-    like_per_day=5000,
-    comments_per_day=100,
-    tag_list=["follow4follow","blackchain", "AI", "f4f", "tutorial", "aesthetic",
-            "tech", "programming", "art", "design", "blockchaintechnology","innovation","technology", "future", "education", "industry", "information"
-            ,"solution", "development","business","webdevelopment", "datascience", "python", "javascript", "C++", "l:212999109"],
-    tag_blacklist=["rain", "thunderstorm"],
+    like_per_day=700,
+    comments_per_day=200,
+    tag_list=["blockchain", "AI", "tutorial", "tech", "programming", "design", "architecture","learn","technology",
+            "education", "udemy","solution", "development","business","webdevelopment", "datascience", "python", "javascript"],
+    tag_blacklist=["rain", "thunderstorm", "follow4follow"],
     user_blacklist={},
-    max_like_for_one_tag=192,
-    follow_per_day=600,
+    max_like_for_one_tag=39,
+    follow_per_day=250,
     follow_time=1 * 60 * 60,
-    unfollow_per_day=600,
-    unlike_per_day=100,
+    unfollow_per_day=400,
+    unlike_per_day=10,
     unfollow_recent_feed=True,
     # If True, the bot will also unfollow people who dont follow you using the recent feed. Default: True
     time_till_unlike=3 * 24 * 60 * 60,  # 3 days
