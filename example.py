@@ -6,8 +6,8 @@ from instabot_py import InstaBot
 bot = InstaBot(
     login="tujani_tr",  # Enter username (lowercase). Do not enter email!
     password="Anaidlika11",
-    like_per_day=700,
-    comments_per_day=200,
+    like_per_day=400,
+    comments_per_day=100,
     tag_list=["bestoftheday",
         "cleaneatingrecipe",
         "cleaneatingchallenge",
@@ -44,8 +44,8 @@ bot = InstaBot(
     max_like_for_one_tag=35,
     follow_per_day=250,
     follow_time=1 * 60 * 60,
-    unfollow_per_day=400,
-    unlike_per_day=10,
+    unfollow_per_day=0,
+    unlike_per_day=20,
     unfollow_recent_feed=True,
     # If True, the bot will also unfollow people who dont follow you using the recent feed. Default: True
     time_till_unlike=3 * 24 * 60 * 60,  # 3 days
