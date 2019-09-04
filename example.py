@@ -8,8 +8,37 @@ bot = InstaBot(
     password="Anaidlika11",
     like_per_day=700,
     comments_per_day=200,
-    tag_list=["bestiotheday", "cleaneatingrecipe", "cleaneatingchallange", "nutrition", "food", "livinghealthy", "inspiration", "delicious","foodfeed",
-            "cleaneating", "udemy","solution", "development","business","webdevelopment", "foodie", "python", "javascript", "courses", "coding"],
+    tag_list=["bestoftheday",
+        "cleaneatingrecipe",
+        "cleaneatingchallenge",
+        "nutrition",
+        "food",
+        "livinghealthy",
+        "inspiration",
+        "foodiev",
+        "feedfeed",
+        "cleaneating",
+        "healthyfood"
+        "wholefood",
+        "gettinghealthy",
+        "cleaneatingideas",
+        "healthfood",
+        "cleaneatingaddict",
+        "foodgram",
+        "healthylifestyle",
+        "healthyeating",
+        "foodstagram",
+        "cleaneats",
+        "cleaneatinglifestyle",
+        "fitness",
+        "wholefoods",
+        "lifestyle",
+        "breakfast",
+        "delicious",
+        "brunch",
+        "organicfood",
+        "organic"
+        ],
     tag_blacklist=["rain", "thunderstorm", "follow4follow"],
     user_blacklist={},
     max_like_for_one_tag=35,
@@ -31,12 +60,12 @@ bot = InstaBot(
     # For example: "This shot feels wow!"
     # We're giving away Udemy Courses for FREE👀 DM if interested🎉
     comment_list=[
-        ["We're"],
-        ["giving away", "giving out"],
-        ["Udemy Courses"],
-        ["for FREE👀"],
-        ["DM"],
-        ["if you want one🎉", "if interested🎉"]
+        ["That's awesome💖👀"],
+        ["We'd",],
+        ["apprecieate"],
+        ["if you"],
+        ["checked us out"],
+        ["if you feel like it💕"]
     ],
     # Use unwanted_username_list to block usernames containing a string
     # Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
@@ -103,3 +132,4 @@ bot = InstaBot(
 )
 
 bot.mainloop()
+ 
